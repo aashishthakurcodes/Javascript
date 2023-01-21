@@ -8,12 +8,17 @@ console.log(typeof(str));
 
 // Boolean Data type
 let bol=true;
+console.log(bol);
 console.log(typeof(bol));
+
 
 //Undefined data type
 let undf;
+console.log(undf);
 console.log(typeof(undf));
 
+
 //Null data type
-let nl= " ";
+let nl= null;
+console.log(nl);
 console.log(typeof(nl));
