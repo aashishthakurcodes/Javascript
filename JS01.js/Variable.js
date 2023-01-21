@@ -56,6 +56,20 @@ console.log("Question 4 solved");
 //05. Declare a varibale and assign string value to it and then split it into an array using split() method.
 
 let splt="Aashish Thakur"
-console.log(splt.split(''));
+console.log(splt.split('')); // convert into object
 
 console.log("Question 5 solved");
+
+
+
+//06. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+
+let splt2= 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+console.log(splt2);
+console.log(typeof(splt2));
+
+ let splte =console.log(splt2.split(""));
+
+console.log(typeof(splte));
+
+// console.log();
