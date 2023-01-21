@@ -43,3 +43,12 @@ let str2="Welcome to our Country"
 console.log(str2.toUpperCase());
 
 console.log("Question 3 Solved");
+
+
+//04. Declare a varibale and assign string value to it and check if the string contains a word Script using includes() method.
+
+let str4 = "the lazy fox jumps over the lazy dog";
+console.log(str4.includes("Script")); //false
+
+console.log("Question 4 solved");
+
