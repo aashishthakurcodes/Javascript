@@ -74,5 +74,12 @@ console.log(typeof(splt3));
 
 console.log("Question 6 solved");
 
+//07. Declare an array containing the multiple values and use lastIndexOf to determine the position of the first and last occurrence of a word "pw skills".
+let arr2=["Arun","gopal","pw skills","Aman",564,"ineuron","pw skills"]
+
+console.log(arr2.lastIndexOf('pw skills')); //it return last index value
+
+console.log(arr2.indexOf('pw skills')); // it return first index value
+
 
 
