@@ -68,8 +68,11 @@ let splt2= 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 console.log(splt2);
 console.log(typeof(splt2));
 
- let splte =console.log(splt2.split(""));
+let splt3=splt2.split(" ");
+console.log(splt3);
+console.log(typeof(splt3));
 
-console.log(typeof(splte));
+console.log("Question 6 solved");
 
-// console.log();
+
+
