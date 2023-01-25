@@ -266,7 +266,6 @@ console.log("Question 15 solved");
 //     - March, April or May, the season is Spring
 //     - June, July or August, the season is Summer
 
-
 let season = prompt("Enter any month name to find season");
 if(season == "September" || season == "October"|| season == "November"){
   console.log("The season is Autumn.");
@@ -277,13 +276,29 @@ else if(season == "December" || season == "January"|| season == "February"){
 else if(season == "June" || season == "July"|| season == "August"){
   console.log("The season is Summer.");
 }
-
 else{
   console.log("Invalid Input");
 }
+console.log("Question 16 solved");
 
 
 
+//17. Write a program which tells the number of days in a month.
+
+let months = prompt("Enter any month name to find the number of total days");
+if(months == "January" || months == "March"|| months == "May" || months == "July"|| months == "August"|| months == "October"|| months == "December"){
+  console.log("The totol number of days in this month is 31.");
+}
+else if(months == "April" || months == "June"|| months == "September"|| months == "November"){
+  console.log("The totol number of days in this month is 30.");
+}
+else if(months == "February"){
+  console.log("The totol number of days in this month is 28.");
+}
+else{
+  console.log("Invalid Input");
+}
+console.log("Question 17 solved");
 
 
 
