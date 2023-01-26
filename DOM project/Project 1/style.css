@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: gray;
+}
+.main{
+    border: 2px solid red;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#contianer{
+    height: 500px;
+    width: 50%;
+    border: 5px solid blue;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#circle{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    /* background: red; */
+  
+}
