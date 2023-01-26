@@ -44,10 +44,20 @@ button{
     background: red;
     
     color: #ffff;
-    font-size: 19px;
+    font-size: 18px;
+    font-family: 'Space Mono';
     
 }
 button:hover{
     background-color: black;
-    color: rgb(51, 134, 189);
+    color: rgb(59, 231, 65);
+    font-size: 19px;
+    
+}
+
+h1{
+    font-family: 'Space Mono';
+}
+h1:hover{
+    text-decoration: underline;
 }

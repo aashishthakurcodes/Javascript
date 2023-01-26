@@ -1,23 +1,11 @@
 //Targeting the container Element
+ 
+function refresh_btn(){
+  document.location.reload(true)
+;}
 
-// let containerElement= document.body.getElementsByClassName("container");
 
-// document.body.addEventListener('click',function(e) {
-//     let newDiv =document.createElement("div");
-//     newDiv.setAttribute("id","circle")
-//     document.body.appendChild(newDiv);
 
-//     //creating x and y cordinates
-
-//     let x = e.clientX;
-//     let y = e.clientY;
-
-//     newDiv.style.top = `${y}px`;
-//     newDiv.style.left = `${x}px`;
-
-// })
-
-//Targeting the container Element
 
 let divElement = document
   .getElementById("contianer")
@@ -32,14 +20,11 @@ let divElement = document
     newDiv.style.top = `${y}px`;
     newDiv.style.left = `${x}px`;
 
-    // setTimeout(() => {
-    //   document.body.removeChild(newDiv);
-    // }, 3000);
 
     setTimeout(() => {
-       location.reload(true);
-    }, 5000);
-
+      document.body.removeChild(newDiv)
+    }, 4000);
+    
     function randomcolor() {
       let hash = "#";
       let color = "123456789ABCDEFG";
@@ -51,18 +36,3 @@ let divElement = document
      newDiv.style.backgroundColor=randomcolor()
   });
 
-// document.addEventListener("click", function (e) {
-//     let newDiv = document.createElement("div");
-//     newDiv.setAttribute("id", "circle");
-//     document.body.appendChild(newDiv);
-
-//     //creating x and y cordinates
-
-//     let x = e.clientX;
-//     let y = e.clientY;
-
-//     newDiv.style.top = `${y}px`;
-//     newDiv.style.left = `${x}px`;
-
-//
-// });
