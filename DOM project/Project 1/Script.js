@@ -23,7 +23,7 @@ let divElement = document
 
     setTimeout(() => {
       document.body.removeChild(newDiv)
-    }, 4000);
+    }, 5000);
     
     function randomcolor() {
       let hash = "#";
