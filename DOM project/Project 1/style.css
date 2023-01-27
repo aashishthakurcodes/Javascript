@@ -6,8 +6,8 @@
 }
 /* Styling main div */
 .main{
-    border: 2px solid red;
-    height: 90vh;
+   
+    height: 92vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,6 @@
     width: 50%;
     border: 5px solid rgb(44, 231, 60);
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     background-color: black;
@@ -31,7 +30,7 @@
     padding: 0px;
     box-shadow: 5px 5px 15px 5px;
 }
-
+/* This is the div created when user click anywhere in the main div */
 #circle{
     width: 30px;
     height: 30px;
@@ -40,11 +39,11 @@
     
   
 }
+
 button{
     padding: 5px 10px;
     border-radius: 10px;
     background: red;
-    
     color: #ffff;
     font-size: 18px;
     font-family: 'Space Mono';
