@@ -4,6 +4,7 @@
     box-sizing: border-box;
     background: gray;
 }
+/* Styling main div */
 .main{
     border: 2px solid red;
     height: 90vh;
@@ -15,6 +16,7 @@
     justify-content: center;
 
 }
+/* div inside the main div */
 #contianer{
     height: 500px;
     width: 50%;
@@ -35,7 +37,7 @@
     height: 30px;
     position: absolute;
     border-radius: 50%;
-    /* background: red; */
+    
   
 }
 button{
