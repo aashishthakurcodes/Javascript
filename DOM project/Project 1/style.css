@@ -6,7 +6,6 @@
 }
 /* Styling main div */
 .main{
-   
     height: 92vh;
     width: 100%;
     display: flex;
@@ -14,7 +13,9 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-
+}
+.main:hover{
+cursor: no-drop;
 }
 /* div inside the main div */
 #contianer{
@@ -30,14 +31,16 @@
     padding: 0px;
     box-shadow: 5px 5px 15px 5px;
 }
+#contianer:hover{
+    cursor: pointer;
+}
 /* This is the div created when user click anywhere in the main div */
 #circle{
     width: 30px;
     height: 30px;
     position: absolute;
     border-radius: 50%;
-    
-  
+
 }
 
 button{
@@ -61,4 +64,5 @@ h1{
 }
 h1:hover{
     text-decoration: underline;
+    cursor: pointer;
 }

@@ -4,6 +4,7 @@ function refresh_btn(){
   document.location.reload(true)
 ;}
 
+
 //Targeting the element
 
 let divElement = document.getElementById("contianer") //it target the container element by its ID
