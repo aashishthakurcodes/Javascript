@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main {
+      background: red;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      height: 350px;
+      width: 50%;
+      background: blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .para {
+      height: 220px;
+      width: 70%;
+      background: rgb(113, 108, 108);
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 20px;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1>Quote of the day</h1>
+        <div id="paragraph" class="para">
+          <p id="Quote">“Behave like a stupid think like a genius” ❤️‍🔥</p>
+        </div>
+        <button onclick="quotechange()">Click to change</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    //  function quotechange(){
+    //     let quotes =document.getElementById("Quote");
+    //     quotes.innerText=randomquotes();
+    //     console.log(quotes);
+    //     quotes.append(randomquotes)
+    //     console.log(quotes);
+    //  }
+
+    // function randomquotes(){
+    //     let arr = ["If you can't sacrifice for what you want, what you want become the sacrifice","When you have a dream, you've got to grab it and never let go.", "Nothing is impossible. The word itself says 'I'm possible!'","Be like snow Beautiful but cold..!","“I'm surviving on caffeine and a cold heart”","“We are all in the gutter, but some of us are looking at the stars.” ","“Live life to the fullest, and focus on the positive.” "];
+    // let random = arr[Math.floor(Math.random()*arr.length)];
+    // return random;
+
+    // let quotes =document.getElementById("Quote");
+    // random.append(quotes);
+    // }
+
+    function quotechange() {
+      //targeting para in html
+      // let target =document.getElementById("Quote")
+
+      let target = document.getElementById("paragraph");
+      let newpara = document.createElement("p");
+      newpara.setAttribute("id", "para");
+      //Adding the randomquotes function;
+      
+      target.innerText = randomquotes();
+
+      function randomquotes() {
+        let arr = [
+          " “If you can't sacrifice for what you want, what you want become the sacrifice” 👨",
+          "“When you have a dream, you've got to grab it and never let go 🧐”.",
+          "“Nothing is impossible. The word itself says 'I'm possible!”'",
+          "“Be like snow Beautiful but cold..!”",
+          "“I'm surviving on caffeine and a cold heart”",
+          "“We are all in the gutter, but some of us are looking at the stars.” ",
+          "“Live life to the fullest, and focus on the positive.” ",
+          "“ A cold heart is its own worst punishment.” ",
+          "“ Those who are heartless, once cared too much.”",
+          "“You do not find the happy life. You make it.”",
+          " “Stay close to anything that makes you glad you are alive.”",
+        ];
+
+        let random = arr[Math.floor(Math.random() * arr.length)];
+        return random;
+      }
+    }
+  </script>
+</html>
