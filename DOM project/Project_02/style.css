@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   .main {
-    background: red;
+    background:  radial-gradient(circle, rgba(0,212,255,1) 3%, rgba(227,121,64,1) 39%, rgba(174,123,186,1) 67%, rgba(145,216,67,1) 100%);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -12,24 +12,100 @@
     align-items: center;
   }
   .container {
-    height: 350px;
+    height: 380px;
     width: 50%;
-    background: blue;
+    background:linear-gradient(153deg, rgba(150,168,197,1) 17%, rgba(190,69,69,1) 31%, rgba(218,161,129,1) 68%, rgba(1,240,170,0.9607858524269083) 89%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px 5px black;
   }
   .para {
-    height: 220px;
+    height: 230px;
     width: 70%;
-    background: rgb(113, 108, 108);
+    background: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     display: flex;
     text-align: center;
-    font-size: 20px;
+    font-family: "Aboreto";
+    padding: 5px;
+    font-size: 22px;
     font-weight: 600;
     border-radius: 20px;
+    color: #ffff;
+    border: 4px solid rgb(63, 249, 63);
+    box-shadow: 5px 5px 30px 5px black;
   }
+
+ h1{
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-family: cursive;
+    color: rgb(255, 253, 253);
+    font-size: 35px;
+    
+ } 
+ button{
+  font-size: 18px;
+  font-weight: 800;
+  padding: 6px 50px;
+  font-family: cursive;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  background:rgb(240, 5, 5);
+  color: aliceblue;
+  border: none;
+ } 
+ button:hover{
+  background: #000;
+  color: rgb(73, 246, 5);
+  cursor: pointer;
+  font-size: 20px;
+  transition-duration: .5s;
+
+ }
+ 
+
+ @media only screen and (max-width: 450px){
+  .main{
+    background: rgb(58,72,180);
+    background:linear-gradient(155deg, rgba(250,0,0,1) 10%, rgba(218,161,129,1) 30%, rgba(1,240,170,0.9607858524269083) 51%, rgba(44,14,9,1) 75%);
+  }
+  h1{
+    font-size: 22px;
+    text-align: center;
+  
+    
+        font-family: cursive;
+        color: rgb(236, 231, 231);
+        
+        
+    
+  }
+  .para{
+    font-size: 13px;
+    border: 5px solid #ffff;
+    box-shadow: 5px 5px 50px 5px black;
+  }
+  .container{
+    background: linear-gradient(38deg, rgba(238,174,202,1) 19%, rgba(185,180,185,1) 34%, rgba(34,199,137,1) 77%, rgba(135,166,203,1) 81%)
+  }
+  button{
+    padding: 4px 30px;
+    font-size: 14px;
+    background:rgb(240, 5, 5);
+  color: aliceblue;
+  }
+   button:hover{
+  background: #000;
+  color: rgb(238, 241, 237);
+  cursor: pointer;
+  font-size: 17px;
+  transition-duration: .5s;
+
+ }
+ }
+ 

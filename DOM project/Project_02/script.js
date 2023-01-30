@@ -1,9 +1,8 @@
 function quotechange() {
- 
 
     let target = document.getElementById("paragraph");
-
     target.innerText = randomquotes();
+   
 
     function randomquotes() {
       let arr = [
@@ -23,8 +22,16 @@ function quotechange() {
         "“The struggle you’re in today is developing the strength you need tomorrow...”🧑 👉 👩‍💻",
         "“Happiness is the only thing that multiplies when you share it..”😄❤️","“Winning doesn’t always mean being first. Winning means you’re doing better than you’ve done before..”🥇🏆 ","“No one is perfect – that’s why pencils have erasers..✍💯”","“Success is the sum of small efforts repeated day in and day out..”🏋️🥇🏆"
       ];
-console.log(arr.length);
+
       let random = arr[Math.floor(Math.random() * arr.length)];
       return random;
+      
     }
+
+    function texteffect() {
+      target.style.transition="width 3s";
+      
+    }
+    target.appendChild(texteffect())
+    
   }
