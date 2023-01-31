@@ -5,13 +5,12 @@ let prime=[];
 for(let x=2; x<=100; x++){
     prime.push(x);
 };
-console.log(prime);
+
+console.log(prime); //it give value from 2 to 100
 let func = prime.filter((val) =>  val%3!==0 && val%2!==0 && val%5!==0 && val%7!==0 && val%9!==0 || val==2 ||val==3 || val==5 || val==7 );
-console.log(func);
+console.log(func); // it filter data and return  prome number
 
 
-// let x=[56,63,45,75,85,36]
-// let y=x.filter((val)=> val>52);
-// console.log(y);
+
 
 
