@@ -6,7 +6,7 @@ if (enterNumber === 2) {console.log("This is a prime number");
 else if(enterNumber<0){
     console.log("This is a negative number");
 } 
-//15
+
 for(let x=2; x<enterNumber; x++){ 
     if (enterNumber%x === 0) {
         console.log("This is not a prime number");
