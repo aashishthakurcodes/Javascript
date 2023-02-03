@@ -43,3 +43,14 @@ document.getElementById("searchinput").placeholder = "Search My Project";
 ### Task 3
 Change the last element of li from "Project" to "Contact"
 
+### Task 3 code :-
+
+``` 
+//Select the li element
+let ulelement=document.querySelector("ul");
+// Select the last child of li element
+let lastli=ulelement.lastElementChild;
+//Change  the text from Projects to contact
+lastli.innerHTML=`<a href="./contact/contact.html">Contact</a>`;
+
+```
