@@ -3,7 +3,7 @@
 ### Task  1
 Append a new element in navigation menu "Hire me".
 
-![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task1Output.png)
+![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20120523.png)
 
 ### Task 1 Code
 ```
@@ -35,10 +35,22 @@ inputSelect.setAttribute("id","searchinput");
 //By using id change the placeholder content.
 document.getElementById("searchinput").placeholder = "Search My Project";
 
+//Changing the list element from contact to Project
+
+// //Select the li element 
+//let ulelement=document.querySelector("ul");
+// // Select the last child of li element
+//let lastli=ulelement.lastElementChild;
+// //Change  the text from Projects to contact
+ //lastli.innerHTML=`<a href="./contact/contact.html">Projects</a>`;
+
+
+
+
 
 ```
 
-![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task2Output.png)
+![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20120026.png)
 
 ### Task 3
 Change the last element of li from "Project" to "Contact"
@@ -51,11 +63,11 @@ let ulelement=document.querySelector("ul");
 // Select the last child of li element
 let lastli=ulelement.lastElementChild;
 //Change  the text from Projects to contact
-lastli.innerHTML=`<a href="./contact/contact.html">Project</a>`;
+lastli.innerHTML=`<a href="./contact/contact.html">Contact</a>`;
 
 ```
 
-![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task3Output.png)
+![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20115142.png)
 
 
 ### Task 4 :-
@@ -91,3 +103,6 @@ btnclas.appendChild(addbtn);
 
 ```
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20113208.png)
+
+
+#### ** Assignment 1 Completed **
