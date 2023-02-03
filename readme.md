@@ -69,3 +69,25 @@ imageSelect.src="DSC_8693.JPG";
 
 ```
 ![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20111218.png)
+
+### Task 5 :-
+Adding Button "Support Me" 
+
+### Task 4 code :-
+```
+//Selecting the parent class of buttons
+let btnclas=document.querySelector(".hero-right-section-btns");
+//Adding "Id" to the parent div
+btnclas.setAttribute("id","hero-btn")
+
+// Creating another button
+let addbtn=document.createElement("button");
+//Adding Text
+addbtn.innerHTML="Support Me";
+console.log(addbtn);
+
+//Append both variable
+btnclas.appendChild(addbtn);
+
+```
+![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20113208.png)

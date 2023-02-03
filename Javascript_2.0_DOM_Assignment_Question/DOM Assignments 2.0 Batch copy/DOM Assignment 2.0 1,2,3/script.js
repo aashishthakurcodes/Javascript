@@ -1,4 +1,5 @@
-// //Task 1
+// *** //Task 1
+
 // //Targeting Ul element 
 //  let targetUl=document.querySelector("ul");
 
@@ -13,7 +14,9 @@
 // targetUl.appendChild(addElement);
 
 
-//Task 02
+
+ 
+// **Task 02**
 
 //Select input Element
 let inputSelect=document.querySelector("input");
@@ -35,18 +38,27 @@ lastli.innerHTML=`<a href="./contact/contact.html">Project</a>`;
 
 
 
-
-
 // //Task 04:=
 let imageSelect=document.querySelector("img");
 imageSelect.src="DSC_8693.JPG";
 
-// //task 05
 
-// let var2=document.getElementById("plko");
-// let btn=document.createElement("button");
-// btn.innerText="Support Me";
-// var2.appendChild(btn)
+
+// // Task 05
+
+//Selecting the parent class of buttons
+let btnclas=document.querySelector(".hero-right-section-btns");
+//Adding "Id" to the parent div
+btnclas.setAttribute("id","hero-btn")
+
+// Creating another button
+let addbtn=document.createElement("button");
+//Adding Text
+addbtn.innerHTML="Support Me";
+console.log(addbtn);
+
+//Append both variable
+btnclas.appendChild(addbtn);
 
 
 // //2nd assisgnment
