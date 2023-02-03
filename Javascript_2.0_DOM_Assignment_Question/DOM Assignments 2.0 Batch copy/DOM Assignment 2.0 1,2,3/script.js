@@ -14,13 +14,23 @@
 
 
 //Task 02
-// Placeholder Input changed
-  document.getElementById("searching").placeholder = "Search My Project";
+//Select input Element
+let inputSelect=document.querySelector("input");
+//Adding Id to input element
+inputSelect.setAttribute("id","searchinput");
+//By using id change the placeholder content.
+document.getElementById("searchinput").placeholder = "Search My Project";
 
-  let targetU=document.querySelector("ul");
-let j=targetU.lastElementChild;
-j.innerHTML=`<a href="./contact/contact.html">Projects</a>`
-console.log(j);
+
+// Task 2.1 
+// Changing the list element from Projects to contact
+//Select the li element
+let ulelement=document.querySelector("ul");
+// Select the last child of li element
+let lastli=ulelement.lastElementChild;
+//Change  the text from Projects to contact
+lastli.innerHTML=`<a href="./contact/contact.html">Contact</a>`;
+
 
 
 // //Task 03

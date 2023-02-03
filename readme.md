@@ -28,5 +28,18 @@ Change the Placeholder of searching input.
 
 ### Task 2 code
 ```
+//Select input Element
+let inputSelect=document.querySelector("input");
+//Adding Id to input element
+inputSelect.setAttribute("id","searchinput");
+//By using id change the placeholder content.
+document.getElementById("searchinput").placeholder = "Search My Project";
+
 
 ```
+
+![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task2Output.png)
+
+### Task 3
+Change the last element of li from "Project" to "Contact"
+
