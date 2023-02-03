@@ -51,6 +51,21 @@ let ulelement=document.querySelector("ul");
 // Select the last child of li element
 let lastli=ulelement.lastElementChild;
 //Change  the text from Projects to contact
-lastli.innerHTML=`<a href="./contact/contact.html">Contact</a>`;
+lastli.innerHTML=`<a href="./contact/contact.html">Project</a>`;
 
 ```
+
+![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/firstAssignmentImage/task3Output.png)
+
+
+### Task 4 :-
+Add an image in place of Avatar
+
+### Task 4 Code :-
+
+```
+let imageSelect=document.querySelector("img");
+imageSelect.src="DSC_8693.JPG";
+
+```
+![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20111218.png)
