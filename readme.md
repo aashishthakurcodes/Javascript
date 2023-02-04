@@ -105,4 +105,12 @@ btnclas.appendChild(addbtn);
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20113208.png)
 
 
-#### ** Assignment 1 Completed **
+## ** Assignment 1 Completed **
+
+
+## ** Assignment 3 **
+
+### Task 1
+Change the Input of User Input board and User Output board
+
+#### Task 1 code
