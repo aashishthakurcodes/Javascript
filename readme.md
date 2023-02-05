@@ -1,9 +1,7 @@
-## DOM Assignments
+# DOM Assignments
 
-### Task  1
-Append a new element in navigation menu "Hire me".
-
-![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20120523.png)
+## Task  1
+## <u> Append a new element in navigation menu "Hire me".</u>
 
 ### Task 1 Code
 ```
@@ -20,11 +18,15 @@ let addElement=document.createElement("li");
 addElement.innerHTML=`<a href="#">Hire Me</a>`;
 //Appending to document
 targetUl.appendChild(addElement);
-```
 
-### Task 2
-Change the Placeholder of searching input.
-"Search My Product" from "Search"
+```
+## Output
+
+![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20120523.png)
+
+## Task 2
+## <u>Change the Placeholder of searching input "Search My Product" from "Search"</u>
+
 
 ### Task 2 code
 ```
@@ -45,15 +47,13 @@ document.getElementById("searchinput").placeholder = "Search My Project";
  //lastli.innerHTML=`<a href="./contact/contact.html">Projects</a>`;
 
 
-
-
-
 ```
 
+## Output
 ![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20120026.png)
 
-### Task 3
-Change the last element of li from "Project" to "Contact"
+## Task 3
+## <u>Change the last element of li from "Project" to "Contact" </u>
 
 ### Task 3 code :-
 
@@ -64,14 +64,14 @@ let ulelement=document.querySelector("ul");
 let lastli=ulelement.lastElementChild;
 //Change  the text from Projects to contact
 lastli.innerHTML=`<a href="./contact/contact.html">Contact</a>`;
-
 ```
-
+ ## Output
 ![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20115142.png)
 
 
-### Task 4 :-
-Add an image in place of Avatar
+## Task 4 :-
+## <u>Add an image in place of Avatar
+</u>
 
 ### Task 4 Code :-
 
@@ -80,12 +80,13 @@ let imageSelect=document.querySelector("img");
 imageSelect.src="DSC_8693.JPG";
 
 ```
+## Output
 ![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20111218.png)
 
-### Task 5 :-
-Adding Button "Support Me" 
+## Task 5 :-
+ ## <u>Adding Button "Support Me"</u> 
 
-### Task 4 code :-
+### Task 5 code :-
 ```
 //Selecting the parent class of buttons
 let btnclas=document.querySelector(".hero-right-section-btns");
@@ -102,15 +103,17 @@ console.log(addbtn);
 btnclas.appendChild(addbtn);
 
 ```
+## Output
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20113208.png)
 
 
 ## ** Assignment 1 Completed **
 
 ## ** Assignment 2 **
-### Task 1
-## Change the background color of all "h3" element.
-#### Task 1 code :-
+
+## Task 1
+## <u> Change the background color of all "h3" element.</u>
+## Task 1 code :-
 
 ```
 //Targeting all the h3
@@ -121,12 +124,13 @@ select2[1].style.backgroundColor = "#9cb1c2";
 select2[2].style.backgroundColor = "#9cb1c2";
 select2[3].style.backgroundColor = "#9cb1c2";
 ```
+## Output
 ![Outout Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/Screenshot%202023-02-05%20080305.png)
 
-### Task 2
-## Add a new Div which consist of h3 and paragraph..and append to it ".accordian-wrapper" main div
+##  Task 2 
+## <u>Add a new Div which consist of h3 and paragraph..and append to it ".accordian-wrapper" main div </u>
 
-#### Task 2 code :-
+## Task 2 code :-
 ```
 //Let's target the "".accordian-wrapper" bcz it consist of all div
 let targetclass= document.querySelector(".accordian-wrapper");
@@ -166,15 +170,18 @@ accordian.forEach((element) => {
   });
 });
 
-
 ```
+## Output
 ![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/Screenshot%202023-02-05%20080402.png)
+
+## ** Assignment 2 completed **
+
 ## ** Assignment 3 **
 
-### Task 1
-Change the Input of User Input board and User Output board
+## Task 1
+## <u>Change the Input of User Input board and User Output board</u>
 
-#### Task 1 code
+## Task 1 code
 
 ```
 // Selecting the left div
@@ -204,8 +211,8 @@ let rightText=rightdiv.querySelector("textarea");
 rightText.placeholder="Hello World"
 
 ```
+## Output
 
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/Screenshot%202023-02-04%20121759.png)
-
 
 ## ** Assignment 3 completed**
