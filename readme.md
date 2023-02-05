@@ -107,6 +107,26 @@ btnclas.appendChild(addbtn);
 
 ## ** Assignment 1 Completed **
 
+## ** Assignment 2 **
+### Task 1
+## Change the background color of all "h3" element.
+#### Task 1 code :-
+
+```
+//Targeting all the h3
+const select2 = document.querySelectorAll("h3");
+//Querry selectorall return us a node list.we can style them using their index number.
+select2[0].style.backgroundColor = "#9cb1c2";
+select2[1].style.backgroundColor = "#9cb1c2";
+select2[2].style.backgroundColor = "#9cb1c2";
+select2[3].style.backgroundColor = "#9cb1c2";
+```
+![Outout Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/Screenshot%202023-02-05%20080305.png)
+
+### Task 
+## Change the background color of all "h3" element.
+#### Task 2 code :-
+
 
 ## ** Assignment 3 **
 
