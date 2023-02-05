@@ -123,11 +123,52 @@ select2[3].style.backgroundColor = "#9cb1c2";
 ```
 ![Outout Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/Screenshot%202023-02-05%20080305.png)
 
-### Task 
-## Change the background color of all "h3" element.
+### Task 2
+## Add a new Div which consist of h3 and paragraph..and append to it ".accordian-wrapper" main div
+
 #### Task 2 code :-
+```
+//Let's target the "".accordian-wrapper" bcz it consist of all div
+let targetclass= document.querySelector(".accordian-wrapper");
+//Creating a div in  ".accordian-wrapper" 
+ let divcreate=document.createElement("div");
+ // Add a class with classname="accordian";
+ divcreate.setAttribute("class","accordian")
+ //Craeting a h3 element for the div
+ let heading = document.createElement("h3");
+ //Adding Text to h3
+ heading.innerHTML = "Skills";
+ //Changing its bg-color
+ heading.style.backgroundColor="#9cb1c2";
+ // Creating an para element.
+ let pra = document.createElement("p");
+ // Adding text to it
+pra.innerText="I posses a very good command over the Full Stack Web technologies like mern which can be seen in my work over the github.";
+
+//Append Hedaing(h3) to div
+divcreate.appendChild(heading);
+//Append para(p) to div
+divcreate.appendChild(pra);
+//Adding our div to the main div
+targetclass.appendChild(divcreate);
 
 
+
+let accordian = document.querySelectorAll(".accordian h3");
+accordian.forEach((element) => {
+  element.addEventListener("click", () => {
+    let para = element.nextElementSibling;
+    if (para.style.display === "block") {
+      para.style.display = "none";
+    } else {
+      para.style.display = "block";
+    }
+  });
+});
+
+
+```
+![Output image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/secondAssignmentImage/Screenshot%202023-02-05%20080402.png)
 ## ** Assignment 3 **
 
 ### Task 1
