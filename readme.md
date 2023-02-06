@@ -215,12 +215,47 @@ rightText.placeholder="Hello World"
 
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/Screenshot%202023-02-04%20121759.png)
 
-## ** Assignment 3 completed**
+## *Assignment 3 completed*
 
 
-## ** Assignment  **
+## ** Assignment 4 **
 
 ## Task 1
-## <u>Change the Input of User Input board and User Output board</u>
+## <u> Change the background-color and text color of all div with classname "clash-card__unit-stats</u>
 
 ## Task 1 code
+
+```
+//It select the class ".clash-card__unit-stats--barbarian" and give it to a background color
+
+let card1=document.querySelector(".clash-card__unit-stats--barbarian");
+card1.style.background="#bd7c2f";
+
+let card2=document.querySelector(".clash-card__unit-stats--archer");
+card2.style.background="#d04976"
+
+let card3=document.querySelector(".clash-card__unit-stats--giant");
+card3.style.background="#de7b09";
+
+let card4=document.querySelector(".clash-card__unit-stats--goblin");
+card4.style.background="#71a32a";
+
+let card5=document.querySelector(".clash-card__unit-stats--wizard");
+card5.style.background="#309eff";
+
+
+// Now we have to change the color of text also
+
+function textcolor(){
+    let stat =document.querySelectorAll(".stat,.stat-value");
+    stat.forEach(element => {
+        element.style.color="white"
+    });
+}
+textcolor()
+
+```
+## Output
+![output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/04_DOM%20Project/04_DOM%20Project/Output/Screenshot%202023-02-06%20103835.png)
+
+## *Assignment 4 completed*

@@ -148,26 +148,26 @@ body {
 
 
 .clash-card__unit-stats--barbarian .one-third {
-  border-right: 1px solid #bd7c2f;
+  border-right: 1px solid #654319;
 }
 
 
 .clash-card__unit-stats--archer .one-third {
-  border-right: 1px solid #d04976;
+  border-right: 1px solid #6a253c;
 }
 
 
 .clash-card__unit-stats--giant .one-third {
-  border-right: 1px solid #de7b09;
+  border-right: 1px solid #83531b;
 }
 
 
 .clash-card__unit-stats--goblin .one-third {
-  border-right: 1px solid #71a32a;
+  border-right: 1px solid #53771f;
 }
 
 .clash-card__unit-stats--wizard .one-third {
-  border-right: 1px solid #309eff;
+  border-right: 1px solid #205685;
 }
 
 .clash-card__unit-stats {
