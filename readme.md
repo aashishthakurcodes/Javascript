@@ -25,7 +25,7 @@ targetUl.appendChild(addElement);
 ![Output Image](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/Screenshot%202023-02-03%20120523.png)
 
 ## Task 2
-## <u>Change the Placeholder of searching input "Search My Product" from "Search"</u>
+## <u>Change the input of searching Placeholder from "Search" to  "Search My Product" </u>
 
 
 ### Task 2 code
@@ -216,3 +216,11 @@ rightText.placeholder="Hello World"
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20Assignment%202.0%201%2C2%2C3/thirdAssignmentImage/Screenshot%202023-02-04%20121759.png)
 
 ## ** Assignment 3 completed**
+
+
+## ** Assignment  **
+
+## Task 1
+## <u>Change the Input of User Input board and User Output board</u>
+
+## Task 1 code
