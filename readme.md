@@ -259,3 +259,17 @@ textcolor()
 ![output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/04_DOM%20Project/04_DOM%20Project/Output/Screenshot%202023-02-06%20103835.png)
 
 ## *Assignment 4 completed*
+
+## ** Assignment 5 **
+
+## Task 
+## <u> Add "Pro subscription" and a "sixth card at the end"</u>
+
+## Task 1 code
+
+```
+
+
+
+
+```
