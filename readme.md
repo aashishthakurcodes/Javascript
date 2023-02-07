@@ -347,7 +347,7 @@ img[1].src="./assets/ineuron-logo.png"
 
 ## Task 2   Change the dollar value
 
-## Task 2 code
+##  code
 ```
 let span=document.querySelector("span");
 console.log(span);
@@ -357,3 +357,35 @@ span.innerHTML="$10"
 
 ## Output
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/06_DOM%20Project/06_DOM%20Project/Output/Screenshot%202023-02-07%20215220.png)
+
+## _Assignment 6 completed_
+
+## ** Assignment 8 **
+
+## Task 
+## <u>  Add a scroll bar in aside tag</u>
+
+## Task 1 code
+```
+//Select aside element
+let aside = document.querySelector("aside")
+// Adding CSS property
+aside.style.overflow = "auto";
+// Create a dummy h2
+let heading2 = document.createElement("h2");
+heading2.setAttribute("class", "new-head");
+heading2.innerHTML = "This is my custom heading?";
+// Create a dummy para
+let para = document.createElement("p");
+para.setAttribute("class", "new-p");
+para.innerHTML =
+  "Private funding by VC firms is down 50% YOY. We take a look at what that means.";
+
+  //appending in aside tag
+aside.appendChild(heading2);
+aside.appendChild(para);
+
+
+```
+## Output
+![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P8/DOM%20P8/Screenshot%202023-02-07%20215843.png)
