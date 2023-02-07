@@ -19,3 +19,9 @@ para.innerHTML =
   //appending in aside tag
 aside.appendChild(heading2);
 aside.appendChild(para);
+
+
+// Task 2
+aside.removeChild(heading2);
+aside.removeChild(para);
+aside.style.overflow="hidden";
