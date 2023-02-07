@@ -328,3 +328,19 @@ let maindiv=document.querySelector(".recipe-gallery");
 ```
 ## Output
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/05_DOM%20Project/05_DOM%20Project/Output/Screenshot%202023-02-06%20111311.png)
+
+
+## ** Assignment 6 **
+
+## Task 
+## <u> Add "ineuron logo" at the top of the page</u>
+
+## Task 1 code
+
+```
+let img=document.querySelectorAll("img");
+img[1].src="./assets/ineuron-logo.png"
+
+```
+## Output
+![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/06_DOM%20Project/06_DOM%20Project/Output/Screenshot%202023-02-07%20214501.png)
