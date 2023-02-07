@@ -344,3 +344,16 @@ img[1].src="./assets/ineuron-logo.png"
 ```
 ## Output
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/06_DOM%20Project/06_DOM%20Project/Output/Screenshot%202023-02-07%20214501.png)
+
+## Task 2   Change the dollar value
+
+## Task 2 code
+```
+let span=document.querySelector("span");
+console.log(span);
+span.innerHTML="$10"
+
+```
+
+## Output
+![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/06_DOM%20Project/06_DOM%20Project/Output/Screenshot%202023-02-07%20215220.png)
