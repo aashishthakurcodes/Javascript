@@ -391,6 +391,7 @@ aside.appendChild(para);
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P8/DOM%20P8/Screenshot%202023-02-07%20215843.png)
 
 ## Task 
+
 ## Remove the slide bar
 
 ### Task code
@@ -403,11 +404,51 @@ aside.style.overflow="hidden";
 ## Output
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P8/DOM%20P8/Screenshot%202023-02-07%20220501.png)
 
-## Another Task
+## Task 3
 ### Toggle the Navbar element
 
 ## Task code
 
 ```
+let button=document.querySelector(".navbar-toggler"); // Target button
+let listbtn=document.querySelector(".list-btn"); //Select li element;
+
+let div=document.querySelector(".col-lg-8")// main div
+console.log(div);
+
+//Create another div
+let newdiv=document.createElement("div");
+//Insert Element at the begininig in the main div
+div.insertBefore(newdiv,div.childNodes[0]);
+//newdiv append all li elements
+newdiv.appendChild(listbtn);
+newdiv.style.display='none'
+
+// Button click event
+button.addEventListener('click',function(){
+    if(newdiv.style.display === 'none'){
+        newdiv.style.display ='block';
+    }
+    else{
+        newdiv.style.display ='none';
+
+    }
+})
+```
+![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P8/DOM%20P8/Screenshot%202023-02-08%20122207.png)
+
+## _Assignmnet 8 completed_
+
+## ** Assignment 9 **
+
+## Task 
+## <u> Change the heading (h1) color</u>
+
+## Task 1 code
+```
+// Assignment 9.1
+let heading1=document.querySelector('h1');
+heading1.style.color="#da2a2a";
 
 ```
+![Output](Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P9/DOM%20P9/Screenshot%202023-02-08%20123559.png)
