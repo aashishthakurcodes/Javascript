@@ -404,7 +404,7 @@ aside.style.overflow="hidden";
 ## Output
 ![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P8/DOM%20P8/Screenshot%202023-02-07%20220501.png)
 
-## Task 3
+##
 ### Toggle the Navbar element
 
 ## Task code
