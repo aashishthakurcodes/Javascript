@@ -25,3 +25,30 @@ aside.appendChild(para);
 aside.removeChild(heading2);
 aside.removeChild(para);
 aside.style.overflow="hidden";
+
+
+// Task 3
+let button=document.querySelector(".navbar-toggler"); // Target button
+let listbtn=document.querySelector(".list-btn"); //Select li element;
+
+let div=document.querySelector(".col-lg-8")// main div
+console.log(div);
+
+//Create another div
+let newdiv=document.createElement("div");
+//Insert Element at the begininig in the main div
+div.insertBefore(newdiv,div.childNodes[0]);
+//newdiv append all li elements
+newdiv.appendChild(listbtn);
+newdiv.style.display='none'
+
+// Button click event
+button.addEventListener('click',function(){
+    if(newdiv.style.display === 'none'){
+        newdiv.style.display ='block';
+    }
+    else{
+        newdiv.style.display ='none';
+
+    }
+})
