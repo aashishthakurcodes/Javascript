@@ -452,3 +452,19 @@ heading1.style.color="#da2a2a";
 
 ```
 ![Output](Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P9/DOM%20P9/Screenshot%202023-02-08%20123559.png)
+
+## Assignment 9.2
+## Change the color of cart button
+
+## Code
+```
+// Assignment 9.2
+let button=document.querySelector(".add-to-cart");
+button.style.background="#ec1237";
+heading1.style.color="black"
+
+```
+## Output
+![Output](./Javascript_2.0_DOM_Assignment_Question/DOM%20Assignments%202.0%20Batch%20copy/DOM%20P9/DOM%20P9/Screenshot%202023-02-08%20123951.png)
+
+## _Assignment 9 completed_
