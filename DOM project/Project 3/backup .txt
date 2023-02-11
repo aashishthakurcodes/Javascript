@@ -1,0 +1,34 @@
+
+const input = document.querySelector("input");
+const button = document.querySelector("button");
+const container=document.getElementById("ghij");
+
+
+
+button.addEventListener("click", function() {
+  const newdiv = document.createElement("div");
+  newdiv.setAttribute('class',"taskdiv another")
+  const rmvbtn = document.createElement("button");
+  rmvbtn.innerHTML="Remove";
+  rmvbtn.setAttribute('id',"rmvbutton")
+  const newParagraph = document.createElement("p");
+  newParagraph.innerHTML = input.value;
+  newdiv.append(newParagraph);
+  newParagraph.innerHTML = input.value=""
+  newdiv.append(rmvbtn);
+  
+  container.append(newdiv)
+  console.log(container);
+
+})
+  
+
+
+console.log(container);
+
+
+// console.log(container);
+
+
+
+
