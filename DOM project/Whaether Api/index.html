@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Explora&family=Julee&family=Lobster&family=Raleway:wght@300&family=Roboto+Slab:wght@300&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <!-- Section 1 -->
+            <section>
+                <div class="sec1">
+                  <h1>Weather forecast</h1>
+                  <form onsubmit="getData(event)" class="searchData">
+                    <input
+                      id="inputBox"
+                      type="text"
+                      placeholder="Enter the city name"
+                    />
+                    <button>Search</button>
+                  </form>
+                </div>
+              </section>
+            <!-- Section 1 end -->
+
+            <!-- Section 2 -->
+            <section>
+                <div class="sec2main">
+                  <div class="left">
+                    <!-- unicode for degree celcius symbol -->
+                    <p><span id="temprature">__</span>&#8451;</p>
+                    <p>Temprature</p>
+                  </div>
+                  <div class="right">
+                    <img width="70px" id="logoImage" src="" alt="icon" />
+                    <p id="weatherStatus">__</p>
+                  </div>
+                </div>
+            </section>
+              <!-- //Section 2 End -->
+
+            <!-- Section 3   -->
+
+            <section>
+                    <div class="sec3">
+                      <!-- displaying the wind speed -->
+                      <div class="card">
+                        <p>Wind Speed</p>
+                        <p><span id="windSpeed">__</span> KMPH</p>
+                      </div>
+              
+                      <!-- displaying the humidity -->
+                      <div class="card">
+                        <p>Humidity</p>
+                        <p id="humidity">__</p>
+                      </div>
+              
+                      <!-- displaying the city name -->
+                      <div class="card">
+                        <p>City Name</p>
+                        <p id="cityName">__</p>
+                      </div>
+              
+                      <!-- displaying the country name -->
+                    <div class="card">
+                        <p>Country Name</p>
+                        <p id="countryName">__</p>
+                    </div>
+              
+                    </div>
+                </section>
+             <!-- //Section 3 End -->
+            <!-- //Section 4 -->
+                <section>
+                 
+                    <div class="sec4">
+                    <div>
+                        <div class="card2">
+                          <p>Max-temp</p>
+                          <p><span id="Max-temp">__</span>&#8451;</p>
+                        </div>
+          
+                        <!-- displaying the humidity -->
+                        <div class="card2">
+                          <p>Min-temp</p>
+                          <p><span id="Min-temp">__</span>&#8451;</p>
+                        </div>
+                    </div>
+
+                        <!-- displaying the city name -->
+                        <div>
+                        <div class="card2">
+                          <p>Sunrise</p>
+                          <p id="sunrise">__</p>
+                        </div>
+          
+                        <!-- displaying the country name -->
+                        <div class="card2">
+                          <p>Sunset</p>
+                          <p id="Sunset">__</p>
+                        </div>
+                    </div>
+                    </div>
+
+                   
+                </section> 
+
+
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
